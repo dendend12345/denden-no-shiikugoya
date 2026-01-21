@@ -1,0 +1,11 @@
+services:
+  dev-portfolio:
+    image: node:lts-slim
+    container_name: astro-dev-env
+    volumes:
+      - .:/app
+    working_dir: /app
+    ports:
+      - "4321:4321"
+    command: tail -f /dev/null && npm run dev --host 0.0.0.0 && npm install 
+    tty: true

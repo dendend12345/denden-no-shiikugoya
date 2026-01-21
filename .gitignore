@@ -1,0 +1,9 @@
+node_modules/
+
+# ビルド成果物（ソースがあればいつでも作れるので不要）
+dist/
+.astro/
+
+# キャッシュやログ
+npm-debug.log*
+.DS_Store
