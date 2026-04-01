@@ -1,0 +1,1 @@
+npm run devnpx astro dev --host 0.0.0.0 --polling
